@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Contact Page - CV Ibrahim</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="index.html">Accueil</a>
+                <a href="About-me.html">A propos de moi</a>
+                <a href="my-projects.html">Mes projets</a>
+                <a href="contact.html">contact</a>
+            </div>
+            <br />
+            <hr />
+        </header>
+
+        <h3>Je suis disponible pour toute proposition d'emploi ou de stage, ou pour participer dans un projet en freelance</h3>
+        <p>Veuillez m'envoyer un mail sur mon adresse "ibrahimguenichi@esprit.tn" où en utilisons le formulaire suivant</p>
+        <form action="#">
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname">Nom</label>
+                    </td>
+                    <td>
+                        <input 
+                        type="text" 
+                        id="fname"
+                        name="lname"
+                        minlength="3"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="add">Adresse</label>
+                    </td>
+                    <td>
+                        <input 
+                        type="email"
+                        id="add"
+                        name="add"
+                        minlength="5" 
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="posit">Position</label>
+                    </td>
+                    <td>
+                        <input 
+                        type="text"
+                        id="posit"
+                        name="posit"
+                        minlength="3" 
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Phone Number</label>
+                    </td>
+                    <td>
+                        <input 
+                        type="number" 
+                        id="phone"
+                        name="phone"
+                        minlength="8"
+                        required
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="date">Date de l'entretient</label>
+                    </td>
+                    <td>
+                        <input 
+                        type="date"
+                        id="date"
+                        name="date" 
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <textarea 
+                        name="cont" 
+                        id="cont" 
+                        cols="30" 
+                        rows="10">Rediger le mail</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit">envoyer</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
